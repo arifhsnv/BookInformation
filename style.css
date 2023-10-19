@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 100%;
+    height: 120vh;
+    background-color: #CEE5F2;
+}
+.head{
+    width: 15%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.head h1{
+    color: #000;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.head p{
+    color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 130.4%;
+letter-spacing: 1.19px;
+
+}
+.body-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.giving-information{
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.giving-information .inputs{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.inputs label{
+    color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.inputs input{
+    width: 280px;
+height: 35px;
+    border-radius: 3px;
+border: 0.5px solid #ABABAB;
+background: #FFF;
+padding-left: 10px;
+}
+.body-container a{
+    width: 150px;
+height: 41px;
+border-radius: 30px;
+background: #52B788;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.line{
+    width: 7px;
+    height: 396px;
+    background: #52B788;
+}
+.right-container{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+table thead tr th{
+    text-align: center;
+    color: #FFF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background: #52B788;
+width: 200px;
+}
+span{
+    color: #52B788;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 130.4%;
+letter-spacing: 1.19px;
+text-transform: capitalize;
+}
+table tbody :nth-child(odd) td{
+    text-align: center;
+    color: #6A6767;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #FFF;
+}
+table tbody :nth-child(even) td{
+    text-align: center;
+    color: #52B788;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #CCD8D2;
+}
